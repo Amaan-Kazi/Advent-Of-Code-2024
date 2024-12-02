@@ -6,8 +6,8 @@ The difference between elements of the sublist must be 1, 2 or 3\
 Count the number of sublists that follow all rules
 
 ### My Solution
-Inputs are taken from file and stored in a multidimensional vector\
-Nested loop that goes over each element of each sublist\
+Inputs are taken from file and stored in a vector\
+Loop goes over each element of the sublist\
 if difference in previous element and current is not 1, 2 or 3 then sublist doesnt follow the rules\
 store whether the previous element is lesser or greater\
 if both lesser and greater (including previous comparisions) then sublist doesnt follow the rules\
